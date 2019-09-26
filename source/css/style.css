@@ -1,4 +1,4 @@
-/* .col{
+.col{
     border: 1px solid red;
     
 }
@@ -9,7 +9,7 @@
 
 .container{
     border: 3px solid green;
-} */
+}
 
 body{
 	overflow-x: hidden;
@@ -30,13 +30,14 @@ body{
 	font-family: 'Electrolize', sans-serif;
 }
 .nav-link:active{
-	color: black;
+	color: red;
 }
 .nav-link:hover{
 	color: grey;
 }
 .nav-link:visited{
-	color: black;
+	text-decoration: none;
+	color: red;
 }
 
 .navbar-brand{
@@ -51,6 +52,7 @@ a:active {text-decoration: none}
 
 .container-barra{
 	margin: auto;
+	margin-top: 2%; 
 	padding: 5%;
 	text-align: center;
 	

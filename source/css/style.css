@@ -1,0 +1,120 @@
+/* .col{
+    border: 1px solid red;
+    
+}
+
+.row{
+    border: 1px dotted blue;
+}
+
+.container{
+    border: 3px solid green;
+} */
+
+body{
+	overflow-x: hidden;
+}
+
+/* a{
+	text-decoration: none;
+} */
+
+.navbar{
+	background: rgba(0,0,0,0.7);
+	color:  black !important;
+	
+}
+
+.nav-link:link{
+	color: white;
+	font-family: 'Electrolize', sans-serif;
+}
+.nav-link:active{
+	color: black;
+}
+.nav-link:hover{
+	color: grey;
+}
+.nav-link:visited{
+	color: black;
+}
+
+.navbar-brand{
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+}
+
+a:link {text-decoration: none; color: rgba(0,0,0,0.7);}
+a:visited {text-decoration: none}
+a:hover {text-decoration: none; }
+a:active {text-decoration: none}
+
+.container-barra{
+	margin: auto;
+	padding: 5%;
+	text-align: center;
+	
+	border: 1px dotted black;
+
+	font-family: 'Electrolize', sans-serif;
+	font-size: 150%;
+	font-weight: bold;	
+	
+}
+
+hr{
+	border-color: black;
+	margin: 0% 8% 0% 8%;
+	opacity: 0.8;
+}
+.rodape{
+	margin: 2%;
+	text-align: center;
+	opacity: 0.8;
+}
+
+/* Animation Timers
+---------------------------------*/
+.delay-02s { 
+	animation-delay: 0.2s; 
+	-webkit-animation-delay: 0.2s; 
+}
+.delay-03s { 
+	animation-delay: 0.3s; 
+	-webkit-animation-delay: 0.3s; 
+}
+.delay-04s { 
+	animation-delay: 0.4s; 
+	-webkit-animation-delay: 0.4s; 
+}
+
+.delay-05s { 
+	animation-delay: 0.5s; 
+	-webkit-animation-delay: 0.5s; 
+}
+.delay-06s { 
+	animation-delay: 0.6s; 
+	-webkit-animation-delay: 0.6s; 
+}
+
+.delay-07s { 
+	animation-delay: 0.7s; 
+	-webkit-animation-delay: 0.7s; 
+}
+.delay-08s { 
+	animation-delay: 0.8s; 
+	-webkit-animation-delay: 0.8s; 
+}
+
+.delay-09s { 
+	animation-delay: 0.9s; 
+	-webkit-animation-delay: 0.9s; 
+}
+.delay-1s { 
+	animation-delay: 1s; 
+	-webkit-animation-delay: 1s; 
+}
+.delay-12s { 
+	animation-delay: 1.2s; 
+	-webkit-animation-delay: 1.2s; 
+}
